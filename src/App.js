@@ -9,11 +9,11 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="App">
-      <h1>Appdelcopon</h1>
       <Router>
         <NavBar />
+        <h1>App del copon </h1>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
